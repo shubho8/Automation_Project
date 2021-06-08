@@ -1,7 +1,7 @@
+sudo apt update -y
+
 name="shubho"
 s3bucket="upgrad-shubho"
-
-sudo apt update -y
 
 dpkg --get-selections | grep apache
 if [ $? -eq 0 ]; then
